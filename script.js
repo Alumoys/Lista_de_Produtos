@@ -1,5 +1,5 @@
 function pedir(){
-    var opcao = prompt("Escolha uma opção de 1 a 4")
+    var opcao = prompt("Escolha uma opção de 1 a 6")
     switch(Number(opcao)){
        
         case 1: 
@@ -16,6 +16,14 @@ function pedir(){
 
         case 4: 
         alert("Você escolheu Joelho")
+        break;
+
+        case 5: 
+        alert("Você escolheu Caldo-de-cana")
+        break;
+
+        case 6: 
+        alert("Você escolheu Quibe")
         break;
     }
 }
